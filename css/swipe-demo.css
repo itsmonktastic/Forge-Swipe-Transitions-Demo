@@ -16,3 +16,17 @@ html, body {
 	/* prevents flicker when starting css transition */
 	-webkit-backface-visibility: hidden;
 }
+
+.picture-area {
+	height: 80%;
+	text-align: center;
+}
+
+.picture {
+	margin-top: 10%;
+	display: inline-block;
+}
+
+.title {
+	text-align: center;
+}
