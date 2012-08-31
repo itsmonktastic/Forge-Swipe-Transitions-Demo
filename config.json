@@ -1,0 +1,16 @@
+{
+	"author": "tim@trigger.io", 
+	"config_version": "2", 
+	"description": "A gestures/transitions demo", 
+	"modules": {
+		"is": true, 
+		"logging": {
+			"level": "DEBUG"
+		}, 
+		"reload": true, 
+		"tools": true
+	}, 
+	"name": "Flickr flicker", 
+	"platform_version": "v1.4", 
+	"version": "0.1"
+}
