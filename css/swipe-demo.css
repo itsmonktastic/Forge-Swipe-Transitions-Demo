@@ -1,3 +1,18 @@
 html, body {
 	height: 100%;
 }
+
+#wrapper {
+	height: 100%;
+	
+	/* allow children to positioned absolutely relative to this */
+	position: relative;
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+
+	/* prevents flicker when starting css transition */
+	-webkit-backface-visibility: hidden;
+}
